@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="description" content="Coarse-To-Fine Tensor Trains for Compact and Robust Visual Representations">
+  <meta name="keywords" content="Coarse-To-Fine Tensor Trains for Compact and Robust Visual Representations">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Reviewer B1m3 - Coarse-To-Fine Tensor Trains for Compact and Robust Visual Representations</title>
+
+
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro" rel="stylesheet">
+
+  <link rel="stylesheet" href="./static/css/bulma.min.css">
+  <link rel="stylesheet" href="./static/css/bulma-carousel.min.css">
+  <link rel="stylesheet" href="./static/css/bulma-slider.min.css">
+  <link rel="stylesheet" href="./static/css/fontawesome.all.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="./static/css/index.css">
+  <link rel="stylesheet" href="./static/css/before_after.css">
+  <link rel="icon" href="./static/images/BSicon_BAHN.svg">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://unpkg.com/imagesloaded@5/imagesloaded.pkgd.min.js"></script>
+  <script defer src="./static/js/fontawesome.all.min.js"></script>
+  <script src="./static/js/bulma-carousel.min.js"></script>
+  <script src="./static/js/bulma-slider.min.js"></script>
+  <script src="./static/js/index.js"></script>
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="./static/css/magnify.css">
+  <link rel="stylesheet" href="twentytwenty/css/twentytwenty.css" type="text/css" media="screen" />
+
+  <!-- jQuery Script (choose one version) -->
+  <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+
+  <!-- jQuery-dependent Plugin Scripts -->
+  <script src="./static/js/jquery.magnify.js"></script>
+  <script src="twentytwenty/js/jquery.event.move.js"></script>
+  <script src="twentytwenty/js/jquery.twentytwenty.js"></script>
+
+  <!-- Custom Scripts -->
+  <script src="./static/js/custom.js"></script>
+
+</head>
+
+<body>
+
+  <section class="hero">
+    <div class="hero-body">
+      <div class="container is-max-desktop">
+        <div class="columns is-centered">
+          <div class="column has-text-centered">
+            <h1 class="title is-1 publication-title"><b>Coarse-To-Fine Tensor Trains for Compact and Robust Visual
+                Representations</b></h1>
+            <div class="is-size-5 publication-authors">
+            </div>
+
+            <div class="is-size-5 publication-authors">
+
+              <h2 class="title is-3">External Material for Reviewer B1m3</h2>
+              <!-- <span class="author-block"><sup></span> -->
+            </div>
+
+            <style>
+              .magnify>.magnify-lens {
+                width: 130px;
+                height: 130px;
+              }
+            </style>
+
+            <style>
+              /* Style the buttons */
+              .btn {
+                border: none;
+                outline: none;
+                padding: 10px 16px;
+                background-color: #f1f1f1;
+                cursor: pointer;
+                font-size: 18px;
+                border-radius: 8px;
+              }
+            </style>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <section style="margin-bottom: 50px;"> <!-- Add margin-bottom style to create space between Table of Contents and Image Section -->
+    <div class="container is-max-desktop">
+      <div class="table-of-contents">
+        <h3>Table of Contents</h3>
+        <ul>
+          <li><a href="#Images_container_tables">Question 1: NeRF Per Scene Results for the Blender, NSVF, and Tanks&Temples Datasets</a></li>
+          <li><a href="#Images_container_qtt">Question 2: Compatibility of TensoRF's "Shrinkage" with QTT and its Multiresolution Format</a></li>
+          <!-- Add the reference for the new section below -->
+          <li><a href="#Images_container_new">Question 3: Exploring Rank Incrementation with SlimmeRF</a></li>
+        </ul>
+      </div>
+    </div>
+  </section>
+  
+
+  <section id="Images_container_tables" style="margin-top: 20px; margin-bottom: 100px;"> <!-- Add margin-top and margin-bottom styles -->
+    <div class="container is-max-desktop">
+      <h1 style="margin-bottom: 20px; font-weight: bold;  font-size: 28px;">Question 1: NeRF Per Scene Results for the Blender, NSVF, and Tanks&Temples Datasets</h1> <!-- Add font-weight: bold; to make the headline bold -->
+
+      <div class="columns is-centered"> <!-- Center the columns -->
+        <!-- Top row with two images -->
+        <div class="image-container" style="margin-top: 20px;"> <!-- Add margin-top style to create space between title and images -->
+          <img src="static/images/blender.png" alt="Image 1">
+          <p> Quantitative results on each scene from the <b>Synthetic-NeRF</b> (Mildenhall et al., 2020) dataset. Results denoted with an asterisk
+            (*) were sourced from the data presented in the referenced paper.</p>
+        </div>
+
+        </div>
+      <div class="columns is-centered"> <!-- Center the columns -->
+        <div class="image-container" style="margin-top: 20px;"> <!-- Add margin-top style to create space between title and images -->
+          <img src="static/images/nsvf.png" alt="Image 1">
+          <p> Quantitative results on each scene from the <b>Synthetic-NSVF</b> (Liu et al., 2020) dataset. Results denoted with an asterisk
+            (*) were sourced from the data presented in the referenced paper.</p>
+        </div>
+
+        </div>
+      <div class="columns is-centered"> <!-- Center the columns -->
+        <!-- Top row with two images -->
+        <div class="image-container" style="margin-top: 20px;"> <!-- Add margin-top style to create space between title and images -->
+          <img src="static/images/tanks_and_temples.png" alt="Image 1">
+          
+          <p> Quantitative results on each scene from the <b>Tanks&Temples</b> (Knapitsch et al., 2017) dataset. Results denoted with an asterisk
+            (*) were sourced from the data presented in the referenced paper.</p>
+        </div>
+
+        </div>
+      <div class="columns is-centered"> <!-- Center the columns -->
+        <!-- Top row with two images -->
+        <div class="image-container" style="margin-top: 20px;"> <!-- Add margin-top style to create space between title and images -->
+          <img src="static/images/near_and_far_experiments.png" alt="Image 1">
+          
+          <p> Novel View Synthesis comparison to TensoRF (PSNR) for all scenes in the <b>Synthetic-NeRF</b> (Mildenhall et al., 2020) dataset. We test on views that are near training views (Near), far from training views (Far), and all test views (All). The models being compared have a size og 7MB.</p>
+        </div>
+
+        </div>
+    </div>
+  </section>
+
+  <section id="Images_container_qtt" style="margin-top: 20px;  margin-bottom: 100px;"> <!-- Add margin-top style to create space between Table of Contents and Image Section -->
+    <div class="container is-max-desktop">
+      <h1 style="margin-bottom: 20px; font-weight: bold; font-size: 28px;">Question 2: Compatibility of TensoRF's "Shrinkage" with QTT and its Multiresolution Format </h1>
+
+
+      <div class="columns is-centered"> <!-- Center the columns -->
+        <!-- Top row with two images -->
+        <div class="image-container" style="margin-top: 20px;"> <!-- Add margin-top style to create space between title and images -->
+          <img src="static/images/corase-to-fine-strucutre.png" alt="Image 1">
+          <p>This figure illustrates the transformation of a 16x16 matrix into a Quantized Tensor Train (QTT) format, showcasing a transition from a standard grid representation to a mixed factor order. Initially presented as a simple 16<sub>x</sub> by 16<sub>y</sub> matrix, it is restructured into a factors of two: (2<sub>1x</sub> × 2<sub>2x</sub> × 2<sub>3x</sub> × 2<sub>4x</sub>) combined with (2<sub>1y</sub> × 2<sub>2y</sub> × 2<sub>3y</sub> × 2<sub>4y</sub>). Subsequently, the factors are permuted into a mixed factor order (2<sub>1x</sub> × 2<sub>1y</sub>) × (2<sub>2x</sub> × 2<sub>2y</sub>) × (2<sub>3x</sub> × 2<sub>3y</sub>) × (2<sub>4x</sub> × 2<sub>4y</sub>). This results in a multiresolution format where the initial core's indices correspond to indexing into four quadrants of the input matrix. Specifically, index 0 in the first core is associated with the top-left quadrant of the grid. Subsequent cores progressively examine increasingly detailed segments of the matrix. This hierarchical breakdown allows the QTT to capture and represent data at various levels of granularity, starting from coarse details down to more intricate details within the grid, which is reminiscent of a wavelet.</p>
+
+          <p>This interlinked parameter structure precludes the direct application of "shrinkage" as in TensoRF. Consider a coordinate <span>x, y = (0,0)</span>, its QTT index <span>q<sub>1</sub>, q<sub>2</sub>, q<sub>3</sub>, q<sub>4</sub> = (0,0,0,0)</span> implies shared parameters with multiple other coordinates across different regions for the latter cores. That is, all coordinates <span>q<sub>1</sub>, q<sub>2</sub>, q<sub>3</sub>, q<sub>4</sub></span> with <span>q<sub>2</sub> = q<sub>3</sub> = q<sub>4</sub> = 0</span> share the same parameters for the weights representing cores 2, 3, and 4. Hence, pruning parameters for an empty spot like (0,0) is not feasible without affecting other indices.</p>
+
+
+
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  
+
+  <section id="Images_container_new" style="margin-top: 20px; margin-bottom: 50px;"> <!-- Add margin-top and margin-bottom styles for the new section -->
+    <div class="container is-max-desktop">
+      <h1 style="margin-bottom: 20px; font-weight: bold;  font-size: 28px;">Question 3: Exploring Rank Incrementation with SlimmeRF</h1> <!-- Add font-weight: bold; to make the headline bold -->
+      <div class="columns is-centered">
+        <div class="column is-half">
+          <div class="image-container_small">
+            <img src="static/images/slimnerf_exp.png" alt="SlimNERF Experiment">
+            <p>This table summarizes the effects of rank incrementation on learning efficiency for a 1k resolution image of a 'Girl with a Pearl Earring'. It contrasts a baseline Quantized Tensor Train (QTT) model without upsampling, starting with a rank of 200, with QTT models employing progressive rank incrementation from a base rank of 100 to 200. Rank increments of 2, 4, 8, and 16 were tested over four intervals: [100, 1000], [100, 1500], [250, 1500], and [250, 750], to determine the start and end points for rank increments.</p>
+
+            <p>The table displays the average PSNR values, alongside standard deviations, across three iterations for each rank increment strategy. These results highlight the improved performance due to strategic rank incrementation, with all strategies surpassing the baseline. For instance, an increment step of 2 within the [100, 1000] interval increased the rank every <span>(1000 - 100) / (200 - 100) = 9</span> iterations. Although a rank increment of 8 yielded the best average PSNR, differences between increment steps were minimal, suggesting a thoughtful approach to rank incrementation can significantly enhance the model's learning capability.</p>
+            
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  
+  <section>
+    <div class="container is-max-desktop">
+      <!-- Your existing image sections here -->
+    </div>
+  </section>
+
+  <!-- Fullscreen image display -->
+  <div class="fullscreen-image" id="fullscreenImage">
+    <span class="close-btn" onclick="closeFullscreenImage()">×</span>
+    <img id="fullscreenImg" src="" alt="Fullscreen Image">
+  </div>
+
+  <!-- Your existing body content here -->
+
+  <script>
+    // JavaScript for toggling fullscreen image display
+    var fullscreenImg = document.getElementById("fullscreenImg");
+    var fullscreenImage = document.getElementById("fullscreenImage");
+
+    // Function to open fullscreen image
+    function openFullscreenImage(imgSrc) {
+      fullscreenImg.src = imgSrc;
+      fullscreenImage.style.display = "flex"; // Display the fullscreen image
+
+      // Add event listener to exit fullscreen when clicking outside the image
+      document.addEventListener("click", exitFullscreenOnClickOutside);
+    }
+
+    // Function to close fullscreen image
+    function closeFullscreenImage() {
+      fullscreenImage.style.display = "none"; // Hide the fullscreen image
+      // Remove event listener when closing fullscreen
+      document.removeEventListener("click", exitFullscreenOnClickOutside);
+    }
+
+    // Function to exit fullscreen when clicking outside the image
+    function exitFullscreenOnClickOutside(event) {
+      if (event.target === fullscreenImage) {
+        closeFullscreenImage();
+      }
+    }
+
+    // Add click event listeners to all images to open in fullscreen
+    var images = document.querySelectorAll(".image-container img");
+    images.forEach(function (img) {
+      img.addEventListener("click", function () {
+        openFullscreenImage(this.src);
+      });
+    });
+  </script>
+
+
+  <footer class="footer">
+    <div class="container">
+      <div class="columns is-centered">
+        <div class="column is-8">
+          <div class="content">
+            <p>
+              This website is licensed under a <a rel="license"
+                href="http://creativecommons.org/licenses/by-sa/4.0/">Creative
+                Commons Attribution-ShareAlike 4.0 International License</a>.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+</body>
+
+</html>
